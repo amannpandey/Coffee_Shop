@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:scaleType="center"
+        android:layout_gravity="center"
+        android:src="@drawable/coffee_shop"
+        tools:ignore="MissingConstraints">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="356dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="AMAN COFFEE SHOP"
+        android:textAllCaps="true"
+        android:textColor="#682009"
+        android:fontFamily="cursive"
+        android:textSize="38sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description -"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#E8000000"></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This a basic Coffee Shop Application for managing the Coffee  Shop Business under the Android Development Basic project of Single screen App"
+        android:textSize="20sp"
+        android:layout_gravity="end"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Information -"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#E8000000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone Number - 1234567890"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email - amancoffeeshop@gmail.com"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Website - www.amancoffeeshop.com"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hours of Operation -"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#E8000000"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Monday to Saturday - 10:00AM-10:00PM"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Sunday - Closed"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thank You !!"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="40sp"
+        android:fontFamily="sans-serif-black"
+        android:textColor="#67110A"
+        />
+
+</LinearLayout>
